@@ -115,7 +115,7 @@ intents.guilds = True
 intents.members = True 
 
 client = commands.Bot(command_prefix='!', intents=intents)
-TOKEN = 'MTE3NDUzODYxMTgyNDI2MzE4OA.G8q58B.CG94dbQSl6XRGlHZW2grLrGu0-j1RMUDayK_uA'  
+TOKEN = ''  #ADD TOKEN
 
 @client.event
 async def on_ready():
